@@ -1,3 +1,6 @@
 @Bean
 Spring的@Bean 用于告诉方法  产生一个Bean对象，然后这个Bean对象交给Spring管理。产生这个Bean对象的方法
 Spring只会调用一次，随后这个Spring将会将这个Bean对象放到这个的IOC容器中
+
+
+@Repository、@Service、@Controller 和 @Component 将类标识为Bean

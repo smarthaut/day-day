@@ -207,14 +207,18 @@ print(quick_sorted([3,1,2,5,4]))
 # 熟悉 Java，那请直接手写一个单例模式？
 # 
 # 数据库增删改查，手写 SQL
-# 
+#select * from user_order
+#delete * from user_order where user_id =
+#update user_order set order_id = '' where user_id = ''
+# insert into user_order() values()
 # Redis 是做什么用的？ElasticSearch是什么？做什么用的？
-# 
+#非关系型数据库 做缓存  elasticsearch  全文搜索引擎  elk+kafka
 # 接口测试怎么做的？如果存在接口依赖关系，怎么做？
-# 
+# request+pytest  我是把所有的接口请求参数放到了一个xml文件里
 # 元组和列表的区别是什么？
-# 
+# 元祖不可变
 # Python中，*arg 和 *kwarg 分别代表什么含义，都有哪些作用？
-# 
+# *args  可变参数  *kwarg  dict
 # 写过爬虫吗？那请说一下常见的反爬机制有哪些？如果是动态加载的页面，看不到数据，如何去进行爬取？
 
+#scrapy  模拟user-agent  ip代理池    接口
